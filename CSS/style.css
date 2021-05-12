@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Goblin One", cursive;
 }
 
 .back {
@@ -24,12 +25,18 @@
 
 .ele:hover {
   background-color: darkblue;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+.ele:active {
+  background-color: rgb(43, 39, 39);
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-content: center;
+  padding: 10;
 }
 
 button {
